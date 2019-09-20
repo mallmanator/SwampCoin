@@ -186,7 +186,7 @@ public:
         nStartMasternodePaymentsBlock = 1001;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 100000;
+        nLastPOWBlock = 105;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
         const char* pszTimestamp = "One World United! 2018-09-09";
@@ -211,10 +211,10 @@ public:
         assert(hashGenesisBlock == uint256("000000c914b2c4a05d8e28f4ec8498b7f13798cd3513cf856c0da23690c00a89"));
         assert(genesis.hashMerkleRoot == uint256("08b1bee241c6a39de8adb7de82bedeaa139976613b67d98d12c25de5bf8681c4"));
 
-        //vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode1.swampnetwork.org"));     // Primary DNS Seeder
-	//    vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode2.swampnetwork.org"));
-       // vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode3.swampnetwork.org"));
-        vSeeds.push_back(CDNSSeedData("45.32.217.164", "45.32.217.164"));
+        //vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode1.SWAMPnetwork.org"));     // Primary DNS Seeder
+	//    vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode2.SWAMPnetwork.org"));
+       // vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode3.SWAMPnetwork.org"));
+        //vSeeds.push_back(CDNSSeedData("50.59.59.250", "50.59.59.250"));
        // vSeeds.push_back(CDNSSeedData("108.61.148.90", "108.61.148.90"));
         //vSeeds.push_back(CDNSSeedData("62.113.206.204", "62.113.206.204"));
 
@@ -229,7 +229,7 @@ public:
         //convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         fRequireRPCPassword = true;
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
@@ -311,14 +311,13 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 
-    	assert(hashGenesisBlock == uint256("000000c914b2c4a05d8e28f4ec8498b7f13798cd3513cf856c0da23690c00a89"));
-        
+        assert(hashGenesisBlock == uint256("000009c1d826b2bf02ee235da98251fc7580c4280a15f88503d1b6f823ebccbc"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode1.swampnetwork.org"));     // Primary DNS Seeder
-	    vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode2.swampnetwork.org"));
-        vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode3.swampnetwork.org"));
+        vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode1.SWAMPnetwork.org"));     // Primary DNS Seeder
+	    vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode2.SWAMPnetwork.org"));
+        vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode3.SWAMPnetwork.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 128); // Testnet SWAMP addresses start with 't'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 11);
