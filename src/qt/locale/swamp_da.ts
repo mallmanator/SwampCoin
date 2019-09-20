@@ -4118,8 +4118,8 @@ For eksempel: alertnotify=Echo %% | mail - s "SWAMP ALARM!" e-mail@administrator
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(41110 could be used only on mainnet)</source>
-        <translation>(41110 kunne kun bruges på hovednettet)</translation>
+        <source>(31110 could be used only on mainnet)</source>
+        <translation>(31110 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4130,8 +4130,8 @@ For eksempel: alertnotify=Echo %% | mail - s "SWAMP ALARM!" e-mail@administrator
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 41110 for mainnet)</source>
-        <translation>(skal være 41110 for hovednettet)</translation>
+        <source>(must be 31110 for mainnet)</source>
+        <translation>(skal være 31110 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
