@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(NWO);
-   // unitlist.append(mNWO);
-   // unitlist.append(uNWO);
+    unitlist.append(SWAMP);
+   // unitlist.append(mSWAMP);
+   // unitlist.append(uSWAMP);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case NWO:
-    case mNWO:
-    case uNWO:
+    case SWAMP:
+    case mSWAMP:
+    case uSWAMP:
         return true;
     default:
         return false;
@@ -41,11 +41,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case NWO:
+    case SWAMP:
         return QString("swamp");
-    case mNWO:
+    case mSWAMP:
         return QString("mswamp");
-    case uNWO:
+    case uSWAMP:
         return QString::fromUtf8("uswamp");
     default:
         return QString("???");
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case NWO:
-            return QString("NWO");
-        case mNWO:
+        case SWAMP:
+            return QString("SWAMP");
+        case mSWAMP:
             return QString("mDNA");
-        case uNWO:
-            return QString::fromUtf8("μNWO");
+        case uSWAMP:
+            return QString::fromUtf8("μSWAMP");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case NWO:
-            return QString("tNWO");
-        case mNWO:
+        case SWAMP:
+            return QString("tSWAMP");
+        case mSWAMP:
             return QString("mXtDNA");
-        case uNWO:
-            return QString::fromUtf8("μtNWO");
+        case uSWAMP:
+            return QString::fromUtf8("μtSWAMP");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case NWO:
-            return QString("NWO");
-        case mNWO:
-            return QString("Milli-NWO (1 / 1" THIN_SP_UTF8 "000)");
-        case uNWO:
-            return QString("Micro-NWO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case SWAMP:
+            return QString("SWAMP");
+        case mSWAMP:
+            return QString("Milli-SWAMP (1 / 1" THIN_SP_UTF8 "000)");
+        case uSWAMP:
+            return QString("Micro-SWAMP (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case NWO:
-            return QString("TestNWOs");
-        case mNWO:
-            return QString("Milli-TestNWOs (1 / 1" THIN_SP_UTF8 "000)");
-        case uNWO:
-            return QString("Micro-TestNWOs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case SWAMP:
+            return QString("TestSWAMPs");
+        case mSWAMP:
+            return QString("Milli-TestSWAMPs (1 / 1" THIN_SP_UTF8 "000)");
+        case uSWAMP:
+            return QString("Micro-TestSWAMPs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case NWO:
+    case SWAMP:
         return 100000000;
-    case mNWO:
+    case mSWAMP:
         return 100000;
-    case uNWO:
+    case uSWAMP:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case NWO:
+    case SWAMP:
         return 8;
-    case mNWO:
+    case mSWAMP:
         return 5;
-    case uNWO:
+    case uSWAMP:
         return 2;
     default:
         return 0;

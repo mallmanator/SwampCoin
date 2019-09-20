@@ -1,7 +1,7 @@
-TOR SUPPORT IN NWO
+TOR SUPPORT IN SWAMP
 =======================
 
-It is possible to run NWO as a Tor hidden service, and connect to such services.
+It is possible to run SWAMP as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
@@ -10,10 +10,10 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-Run NWO behind a Tor proxy
+Run SWAMP behind a Tor proxy
 ----------------------------------
 
-The first step is running NWO behind a Tor proxy. This will already make all
+The first step is running SWAMP behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 ```
 -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -46,7 +46,7 @@ In a typical situation, this suffices to run behind a Tor proxy:
 ./swampd -proxy=127.0.0.1:9050
 ```
 
-Run a NWO hidden server
+Run a SWAMP hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -110,7 +110,7 @@ for normal IPv4/IPv6 communication, use:
 ./swampd -onion=127.0.0.1:9050 -externalip=TO-DO -discover
 ```
 
-List of known NWO Tor relays       **TO-DO**
+List of known SWAMP Tor relays       **TO-DO**
 ------------------------------------
 ```
 

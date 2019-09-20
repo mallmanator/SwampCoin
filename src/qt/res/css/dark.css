@@ -735,7 +735,7 @@
             font-size:55px;
          }
 
-    QWidget .QPushButton#blabel_NWO {
+    QWidget .QPushButton#blabel_SWAMP {
             background-color: transparent;
             border:0;
             border-radius:0px;
@@ -769,7 +769,7 @@
      }
 
 
-     QWidget .QFrame#frame_blue .QLabel#label_NWO2 { /*swamp */
+     QWidget .QFrame#frame_blue .QLabel#label_SWAMP2 { /*swamp */
         background-color:transparent;
         color:#EBAB7B;
         font-size:15px;
@@ -787,7 +787,7 @@
         font-size:30px;
      }
 
-     QWidget .QFrame#frame_blue .QLabel#label_NWO3 { /*swamp */
+     QWidget .QFrame#frame_blue .QLabel#label_SWAMP3 { /*swamp */
         background-color:transparent;
         color:#EBAB7B;
         font-size:15px;
@@ -807,7 +807,7 @@
      }
 
 
-     QWidget .QFrame#frame_blue .QLabel#label_NWO4 { /*swamp */
+     QWidget .QFrame#frame_blue .QLabel#label_SWAMP4 { /*swamp */
         background-color:transparent;
         color:#EBAB7B;
         font-size:15px;

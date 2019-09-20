@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between swamp-cli and swampd)
- * of a given instance of the NWO system.
+ * of a given instance of the SWAMP system.
  */
 class CBaseChainParams
 {

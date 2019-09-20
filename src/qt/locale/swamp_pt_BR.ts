@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your NWO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços NWO para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your SWAMP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços SWAMP para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your NWO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços NWO para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your SWAMP addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços SWAMP para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>NWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NWOs from being stolen by malware infecting your computer.</source>
-        <translation>NWO vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas NWOs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>SWAMP will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SWAMPs from being stolen by malware infecting your computer.</source>
+        <translation>SWAMP vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas SWAMPs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NWO&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS NWO&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SWAMP&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS SWAMP&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a NWO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a SWAMP Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The NWO address to sign the message with</source>
-        <translation>O endereço NWO para assinar a mensagem</translation>
+        <source>The SWAMP address to sign the message with</source>
+        <translation>O endereço SWAMP para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NWO address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço NWO</translation>
+        <source>Sign the message to prove you own this SWAMP address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SWAMP</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The NWO address the message was signed with</source>
-        <translation>O endereço NWO que assinou a mensagem</translation>
+        <source>The SWAMP address the message was signed with</source>
+        <translation>O endereço SWAMP que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified NWO address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço NWO especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SWAMP address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SWAMP especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,12 +586,12 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>NWO Core</source>
-        <translation>NWO Core</translation>
+        <source>SWAMP Core</source>
+        <translation>SWAMP Core</translation>
     </message>
     <message>
-        <source>Send coins to a NWO address</source>
-        <translation>Enviar moedas para um endereço NWO</translation>
+        <source>Send coins to a SWAMP address</source>
+        <translation>Enviar moedas para um endereço SWAMP</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and swamp: URIs)</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About NWO Core</source>
-        <translation>&amp;Sobre o NWO Core</translation>
+        <source>&amp;About SWAMP Core</source>
+        <translation>&amp;Sobre o SWAMP Core</translation>
     </message>
     <message>
-        <source>Show information about NWO Core</source>
-        <translation>Mostra informação sobre o NWO Core</translation>
+        <source>Show information about SWAMP Core</source>
+        <translation>Mostra informação sobre o SWAMP Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for NWO</source>
-        <translation>Modificar opções de configuração para NWO</translation>
+        <source>Modify configuration options for SWAMP</source>
+        <translation>Modificar opções de configuração para SWAMP</translation>
     </message>
     <message>
-        <source>Sign messages with your NWO addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços NWO para provar que você os detém</translation>
+        <source>Sign messages with your SWAMP addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços SWAMP para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified NWO addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços NWO especificados</translation>
+        <source>Verify messages to ensure they were signed with specified SWAMP addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços SWAMP especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a NWO: URI or payment request</source>
-        <translation>Abrir um NWO: URI ou requisição de pagamento</translation>
+        <source>Open a SWAMP: URI or payment request</source>
+        <translation>Abrir um SWAMP: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the NWO Core help message to get a list with possible NWO command-line options</source>
-        <translation>Mostra a ajuda da NWO Core para receber uma lista com possíveis opções de linha de comando NWO</translation>
+        <source>Show the SWAMP Core help message to get a list with possible SWAMP command-line options</source>
+        <translation>Mostra a ajuda da SWAMP Core para receber uma lista com possíveis opções de linha de comando SWAMP</translation>
     </message>
     <message>
-        <source>NWO Core client</source>
-        <translation>Cliente Core NWO</translation>
+        <source>SWAMP Core client</source>
+        <translation>Cliente Core SWAMP</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1095,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid NWO address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de NWO</translation>
+        <source>The entered address "%1" is not a valid SWAMP address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de SWAMP</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>NWO Core</source>
-        <translation>NWO Core</translation>
+        <source>SWAMP Core</source>
+        <translation>SWAMP Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About NWO Core</source>
-        <translation>Sobre o NWO Core</translation>
+        <source>About SWAMP Core</source>
+        <translation>Sobre o SWAMP Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to NWO Core.</source>
-        <translation>Bem-vindo ao NWO Core.</translation>
+        <source>Welcome to SWAMP Core.</source>
+        <translation>Bem-vindo ao SWAMP Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where NWO Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde NWO Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where SWAMP Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde SWAMP Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>NWO Core will download and store a copy of the NWO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>NWO Core vai baixar e armazenar uma cópia da blockchain NWO. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>SWAMP Core will download and store a copy of the SWAMP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SWAMP Core vai baixar e armazenar uma cópia da blockchain SWAMP. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>NWO Core</source>
-        <translation>NWO Core</translation>
+        <source>SWAMP Core</source>
+        <translation>SWAMP Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1460,48 +1460,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 NWO</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 NWO</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SWAMP</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 SWAMP</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 NWO</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 NWO</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SWAMP</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 SWAMP</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 NWO to anonymize 10000 NWO</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 NWO para anonimizar 10000 NWO</translation>
+        <source>This option is the quickest and will cost about ~0.025 SWAMP to anonymize 10000 SWAMP</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 SWAMP para anonimizar 10000 SWAMP</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 NWO to anonymize 10000 NWO</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 NWO para anonimizar 10000 NWO</translation>
+        <source>This option is moderately fast and will cost about 0.05 SWAMP to anonymize 10000 SWAMP</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 SWAMP para anonimizar 10000 SWAMP</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 NWO per 10000 NWO you anonymize.</source>
-        <translation>0.1 NWO por 10000 NWO que deixar anônima.</translation>
+        <source>0.1 SWAMP per 10000 SWAMP you anonymize.</source>
+        <translation>0.1 SWAMP por 10000 SWAMP que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening NWO's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela NWO's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SWAMP's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SWAMP's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening NWO's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela NWO's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SWAMP's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SWAMP's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening NWO's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela NWO's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SWAMP's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SWAMP's.</translation>
     </message>
 </context>
 <context>
@@ -1554,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the NWO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente NWO no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the SWAMP client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente SWAMP no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start NWO after logging in to the system.</source>
-        <translation>Iniciar automaticamente NWO depois de logar no sistema.</translation>
+        <source>Automatically start SWAMP after logging in to the system.</source>
+        <translation>Iniciar automaticamente SWAMP depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start NWO on system login</source>
-        <translation>&amp;Iniciar NWO ao logar no sistema</translation>
+        <source>&amp;Start SWAMP on system login</source>
+        <translation>&amp;Iniciar SWAMP ao logar no sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1590,8 +1590,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Rodadas de ofuscação para usar</translation>
     </message>
     <message>
-        <source>Amount of NWO to keep anonymized</source>
-        <translation>Quantidade de NWO a manter anônima</translation>
+        <source>Amount of SWAMP to keep anonymized</source>
+        <translation>Quantidade de SWAMP a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1606,8 +1606,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting NWO.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do NWO.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SWAMP.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do SWAMP.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1616,8 +1616,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</source>
 https://www.transifex.com/swamp-project/swamp-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the NWO network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede NWO através de um proxy SOCKS5</translation>
+        <source>Connect to the SWAMP network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede SWAMP através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,8 +1755,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Fundos</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NWO network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede NWO após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SWAMP network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede SWAMP após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1791,8 +1791,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Saldo ofuscado:</translation>
     </message>
     <message>
-        <source>0 NWO / 0 Rounds</source>
-        <translation>0 NWO / 0 Rodadas</translation>
+        <source>0 SWAMP / 0 Rounds</source>
+        <translation>0 SWAMP / 0 Rodadas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1964,8 +1964,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a NWO address (e.g. %1)</source>
-        <translation>Insira um endereço NWO (e.g. %1)</translation>
+        <source>Enter a SWAMP address (e.g. %1)</source>
+        <translation>Insira um endereço SWAMP (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2214,8 +2214,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the NWO RPC console.</source>
-        <translation>Bem-vindo ao console da NWO RPC</translation>
+        <source>Welcome to the SWAMP RPC console.</source>
+        <translation>Bem-vindo ao console da SWAMP RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2470,8 +2470,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 NWO</source>
-        <translation>0 NWO</translation>
+        <source>0 SWAMP</source>
+        <translation>0 SWAMP</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2514,12 +2514,12 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uNWOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uNWOs in fee,&lt;br /&gt;while "at least" pays 1000 uNWOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uNWOs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uNWOs em taxa,&lt;br /&gt; pagará pelo menos 1000 uNWOs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSWAMPs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSWAMPs in fee,&lt;br /&gt;while "at least" pays 1000 uSWAMPs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uSWAMPs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uSWAMPs em taxa,&lt;br /&gt; pagará pelo menos 1000 uSWAMPs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for NWO transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de NWO do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SWAMP transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de SWAMP do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2606,8 +2606,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid NWO address</source>
-        <translation>Aviso: endereço NWO inválido</translation>
+        <source>Warning: Invalid SWAMP address</source>
+        <translation>Aviso: endereço SWAMP inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2701,8 +2701,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The NWO address to send the payment to</source>
-        <translation>O endereço NWO para enviar o pagamento</translation>
+        <source>The SWAMP address to send the payment to</source>
+        <translation>O endereço SWAMP para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2764,8 +2764,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>NWO Core is shutting down...</source>
-        <translation>NWO Core está desligando...</translation>
+        <source>SWAMP Core is shutting down...</source>
+        <translation>SWAMP Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2783,8 +2783,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The NWO address to sign the message with</source>
-        <translation>O endereço NWO para assinar a mensagem</translation>
+        <source>The SWAMP address to sign the message with</source>
+        <translation>O endereço SWAMP para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2815,16 +2815,16 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NWO address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço NWO</translation>
+        <source>Sign the message to prove you own this SWAMP address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SWAMP</translation>
     </message>
     <message>
-        <source>The NWO address the message was signed with</source>
-        <translation>O endereço NWO que assinou a mensagem</translation>
+        <source>The SWAMP address the message was signed with</source>
+        <translation>O endereço SWAMP que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified NWO address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço NWO especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SWAMP address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SWAMP especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2906,8 +2906,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>NWO Core</source>
-        <translation>NWO Core</translation>
+        <source>SWAMP Core</source>
+        <translation>SWAMP Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2922,8 +2922,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The NWO Core developers</source>
-        <translation>Os desenvolvedores do NWO Core</translation>
+        <source>The SWAMP Core developers</source>
+        <translation>Os desenvolvedores do SWAMP Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3406,8 +3406,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 NWO.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 NWO.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SWAMP.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 SWAMP.</translation>
     </message>
 </context>
 <context>
@@ -3456,8 +3456,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all NWO specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas NWO (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all SWAMP specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas SWAMP (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
@@ -3476,12 +3476,12 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in NWO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em NWO/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in SWAMP/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em SWAMP/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in NWO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em NWO/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in SWAMP/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em SWAMP/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3504,8 +3504,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 NWO.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 NWO.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SWAMP.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 SWAMP.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3520,8 +3520,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong NWO Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core NWO não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SWAMP Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core SWAMP não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3605,7 +3605,7 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
     </message>
     <message>
         <source>Copyright (C) 2017-%i The XDNA Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do NWO Core</translation>
+        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do SWAMP Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3656,8 +3656,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of NWO Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da NWO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SWAMP Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da SWAMP Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in NWO/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em NWO/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in SWAMP/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em SWAMP/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3804,8 +3804,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
-        <source>Keep N NWO anonymized (default: %u)</source>
-        <translation>Manter N NWO anônimo (padrão: %u)</translation>
+        <source>Keep N SWAMP anonymized (default: %u)</source>
+        <translation>Manter N SWAMP anônimo (padrão: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
@@ -4144,8 +4144,8 @@ https://www.transifex.com/swamp-project/swamp-project-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart NWO Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o NWO Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart SWAMP Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o SWAMP Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

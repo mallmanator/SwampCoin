@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "NWO"
-            VALUE "FileDescription",    "swampd (OSS daemon/client for NWO)"
+            VALUE "CompanyName",        "SWAMP"
+            VALUE "FileDescription",    "swampd (OSS daemon/client for SWAMP)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "swampd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
