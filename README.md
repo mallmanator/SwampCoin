@@ -1,0 +1,2 @@
+# SwampCoin
+Digital Currency
