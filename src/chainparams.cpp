@@ -288,7 +288,7 @@ public:
         assert(subsidySwitchPoints.size());
 
         vAlertPubKey = ParseHex("0470278d0645942e9816abfb0596ddb92c9e15f4efcb59d05f46579398de5f0cbc73c5dad1bf3078d26b7eff021c5628140933a8cfc430ab7c00276304d7353d9e");
-        nDefaultPort = 51112;
+        nDefaultPort = 21110;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
@@ -304,14 +304,14 @@ public:
 
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1561383715;
-        genesis.nNonce = 4814113;
+        genesis.nTime = 1536512400;
+        genesis.nNonce = 1226015;
 
 	    //MineGenesis(genesis);
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("000009c1d826b2bf02ee235da98251fc7580c4280a15f88503d1b6f823ebccbc"));
+        assert(hashGenesisBlock == uint256("000000c914b2c4a05d8e28f4ec8498b7f13798cd3513cf856c0da23690c00a89"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
