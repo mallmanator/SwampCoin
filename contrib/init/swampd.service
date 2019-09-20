@@ -1,0 +1,26 @@
+[Unit]
+Description=NWO's distributed currency daemon
+After=network.target
+
+[Service]
+User=swamp
+Group=swamp
+
+Type=forking
+PIDFile=/var/lib/swampd/swampd.pid
+
+ExecStart=/usr/bin/swampd -daemon -pid=/var/lib/swampd/swampd.pid \
+          -conf=/etc/swamp/swamp.conf -datadir=/var/lib/swampd
+
+ExecStop=-/usr/bin/swamp-cli -conf=/etc/swamp/swamp.conf \
+         -datadir=/var/lib/swampd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

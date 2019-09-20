@@ -1,0 +1,26 @@
+# /etc/conf.d/swampd: config file for /etc/init.d/swampd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/swamp/swamp.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/swampd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/swampd.pid"
+
+# Where to write swampd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/swampd"
+
+# User and group to own swampd process
+#BITCOIND_USER="swamp"
+#BITCOIND_GROUP="swamp"
+
+# Path to swampd executable
+#BITCOIND_BIN="/usr/bin/swampd"
+
+# Nice value to run swampd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
