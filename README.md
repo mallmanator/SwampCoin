@@ -1,6 +1,6 @@
 
 
-New World Order (SWAMP) Currency
+Swamp Coin (SWAMP) Currency
 =====================================
 
 SWAMP is a digital currency building up a global community to be united against the inflationary nature of all world Fiat currency. As governments print an infinite amount of dollars, euros etc., SWAMP remains finite and predicable.  SWAMP is superior to fiat and traditional banks by:
