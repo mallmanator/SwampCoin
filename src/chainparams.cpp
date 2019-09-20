@@ -98,7 +98,7 @@ CAmount CChainParams::SubsidyValue(SubsidySwitchPoints::key_type level) const
     return point->second;
 }
 
-void MineGenesis(CBlock genesis)
+ MineGenesis(CBlock genesis)
 {
     printf("Searching for genesis block...\n");
     // This will figure out a valid hash and Nonce if you're
