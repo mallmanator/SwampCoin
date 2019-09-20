@@ -186,7 +186,7 @@ public:
         nStartMasternodePaymentsBlock = 1001;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 105;
+        nLastPOWBlock = 200000;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
         const char* pszTimestamp = "One World United! 2018-09-09";
@@ -332,7 +332,7 @@ public:
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
         fRequireRPCPassword = true;
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
