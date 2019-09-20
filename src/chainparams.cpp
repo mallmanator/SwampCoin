@@ -211,9 +211,9 @@ public:
         assert(hashGenesisBlock == uint256("000000c914b2c4a05d8e28f4ec8498b7f13798cd3513cf856c0da23690c00a89"));
         assert(genesis.hashMerkleRoot == uint256("08b1bee241c6a39de8adb7de82bedeaa139976613b67d98d12c25de5bf8681c4"));
 
-        //vSeeds.push_back(CDNSSeedData("nwonetwork.org", "seednode1.nwonetwork.org"));     // Primary DNS Seeder
-	//    vSeeds.push_back(CDNSSeedData("nwonetwork.org", "seednode2.nwonetwork.org"));
-       // vSeeds.push_back(CDNSSeedData("nwonetwork.org", "seednode3.nwonetwork.org"));
+        //vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode1.swampnetwork.org"));     // Primary DNS Seeder
+	//    vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode2.swampnetwork.org"));
+       // vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode3.swampnetwork.org"));
         //vSeeds.push_back(CDNSSeedData("50.59.59.250", "50.59.59.250"));
        // vSeeds.push_back(CDNSSeedData("108.61.148.90", "108.61.148.90"));
         //vSeeds.push_back(CDNSSeedData("62.113.206.204", "62.113.206.204"));
@@ -315,9 +315,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("nwonetwork.org", "seednode1.nwonetwork.org"));     // Primary DNS Seeder
-	    vSeeds.push_back(CDNSSeedData("nwonetwork.org", "seednode2.nwonetwork.org"));
-        vSeeds.push_back(CDNSSeedData("nwonetwork.org", "seednode3.nwonetwork.org"));
+        vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode1.swampnetwork.org"));     // Primary DNS Seeder
+	    vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode2.swampnetwork.org"));
+        vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode3.swampnetwork.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 128); // Testnet NWO addresses start with 't'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 11);

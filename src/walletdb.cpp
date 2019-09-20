@@ -866,7 +866,7 @@ DBErrors CWalletDB::ZapWalletTx(CWallet* pwallet, vector<CWalletTx>& vWtx)
 void ThreadFlushWalletDB(const string& strFile)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("nwo-wallet");
+    RenameThread("swamp-wallet");
 
     static bool fOneThread;
     if (fOneThread)
@@ -990,7 +990,7 @@ bool CWalletDB::Recover(CDBEnv& dbenv, std::string filename, bool fOnlyKeys)
     }
     LogPrintf("Salvage(aggressive) found %u records\n", salvagedData.size());
 
-    bool fSnwoess = allOK;
+    bool fSswampess = allOK;
     boost::scoped_ptr<Db> pdbCopy(new Db(&dbenv.dbenv, 0));
     int ret = pdbCopy->open(NULL, // Txn pointer
         filename.c_str(),         // Filename
@@ -1024,12 +1024,12 @@ bool CWalletDB::Recover(CDBEnv& dbenv, std::string filename, bool fOnlyKeys)
         Dbt datValue(&row.second[0], row.second.size());
         int ret2 = pdbCopy->put(ptxn, &datKey, &datValue, DB_NOOVERWRITE);
         if (ret2 > 0)
-            fSnwoess = false;
+            fSswampess = false;
     }
     ptxn->commit(0);
     pdbCopy->close(0);
 
-    return fSnwoess;
+    return fSswampess;
 }
 
 bool CWalletDB::Recover(CDBEnv& dbenv, std::string filename)

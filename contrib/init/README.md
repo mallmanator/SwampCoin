@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: nwod.service
-Upstart: nwod.conf
-OpenRC:  nwod.openrc
-         nwod.openrcconf
-CentOS:  nwod.init
+SystemD: swampd.service
+Upstart: swampd.conf
+OpenRC:  swampd.openrc
+         swampd.openrcconf
+CentOS:  swampd.init
 
 have been made available to assist packagers in creating node packages here.
 

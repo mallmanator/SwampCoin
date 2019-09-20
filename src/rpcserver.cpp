@@ -326,24 +326,24 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* NWO features */
-        {"nwo", "masternode", &masternode, true, true, false},
-        {"nwo", "listmasternodes", &listmasternodes, true, true, false},
-        {"nwo", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"nwo", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"nwo", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"nwo", "masternodedebug", &masternodedebug, true, true, false},
-        {"nwo", "startmasternode", &startmasternode, true, true, false},
-        {"nwo", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"nwo", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"nwo", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"nwo", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"nwo", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"nwo", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"nwo", "mnsync", &mnsync, true, true, false},
-        {"nwo", "spork", &spork, true, true, false},
-        {"nwo", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"swamp", "masternode", &masternode, true, true, false},
+        {"swamp", "listmasternodes", &listmasternodes, true, true, false},
+        {"swamp", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"swamp", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"swamp", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"swamp", "masternodedebug", &masternodedebug, true, true, false},
+        {"swamp", "startmasternode", &startmasternode, true, true, false},
+        {"swamp", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"swamp", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"swamp", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"swamp", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"swamp", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"swamp", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"swamp", "mnsync", &mnsync, true, true, false},
+        {"swamp", "spork", &spork, true, true, false},
+        {"swamp", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"nwo", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"swamp", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -609,10 +609,10 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use nwod, or the -server option to nwo-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use swampd, or the -server option to swamp-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=nworpc\n"
+                                               "rpcuser=swamprpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
@@ -1069,7 +1069,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> nwo-cli " + methodname + " " + args + "\n";
+    return "> swamp-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

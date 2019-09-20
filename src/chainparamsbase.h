@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between nwo-cli and nwod)
+ * CBaseChainParams defines the base parameters (shared between swamp-cli and swampd)
  * of a given instance of the NWO system.
  */
 class CBaseChainParams
