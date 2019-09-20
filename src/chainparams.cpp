@@ -147,8 +147,8 @@ public:
         vAlertPubKey = ParseHex("0470278d0645942e9816abfb0596ddb92c9e15f4efcb59d05f46579398de5f0cbc73c5dad1bf3078d26b7eff021c5628140933a8cfc430ab7c00276304d7353d9e");
         vSWAMPDevKey = ParseHex("0329b41789e8fd75dc7168d05dec322c25df364f6b010fb59c96b4637e5f4487cb"); // TEAMPubKey for fees
         vSWAMPFundKey = ParseHex("031f3b25791150d4243608c51f39c13a5b340cb73e4bf44c4d0258ad65506cd6c2"); // SWAPPubKey for fees
-        nDevFee = 3; // TEAMFee %
-        nFundFee = 7; // SWAPFee %
+        nDevFee = 0; // TEAMFee %
+        nFundFee = 0; // SWAPFee %
         nDefaultPort = 31110;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnStartWork = ~uint256(0) >> 24;
@@ -186,10 +186,10 @@ public:
         nStartMasternodePaymentsBlock = 1001;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 105;
+        nLastPOWBlock = 100000;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
-        const char* pszTimestamp = "One World United! 2018-09-09";
+        const char* pszTimestamp = "One Swampy World! 2019-09-20";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -214,7 +214,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode1.swampnetwork.org"));     // Primary DNS Seeder
 	//    vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode2.swampnetwork.org"));
        // vSeeds.push_back(CDNSSeedData("swampnetwork.org", "seednode3.swampnetwork.org"));
-        //vSeeds.push_back(CDNSSeedData("50.59.59.250", "50.59.59.250"));
+        vSeeds.push_back(CDNSSeedData("45.32.217.164", "45.32.217.164"));
        // vSeeds.push_back(CDNSSeedData("108.61.148.90", "108.61.148.90"));
         //vSeeds.push_back(CDNSSeedData("62.113.206.204", "62.113.206.204"));
 
@@ -229,7 +229,7 @@ public:
         //convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         fRequireRPCPassword = true;
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
