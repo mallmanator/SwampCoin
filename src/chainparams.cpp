@@ -189,7 +189,7 @@ public:
         nLastPOWBlock = 100000;
         nModifierUpdateBlock = std::numeric_limits<decltype(nModifierUpdateBlock)>::max();
 
-        const char* pszTimestamp = "One Swampy World! 2019-09-20";
+        const char* pszTimestamp = "One World United! 2018-09-09";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
