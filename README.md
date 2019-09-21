@@ -19,7 +19,7 @@ If you like the idea of owning and controlling your own money, feel free to cont
 <table>
 <tr><td>Name & ticker</td><td>New World Order (SWAMP)</td></tr>
 <tr><td>Consensus algorithm</td><td>PoW/POS</td></tr>
-<tr><td>POW phase duration</td><td>100 blocks</td></tr>
+<tr><td>POW phase duration</td><td>200,000 blocks mined via wallet only</td></tr>
 <tr><td>PoW block reward</td><td>Dynamic from 4 to 511 SWAMP</td></tr>
 <tr><td>Instamine protection</td><td>First 720 blocks</td></tr>
 <tr><td>Hashing algorithm</td><td>HEX</td></tr>
@@ -29,7 +29,7 @@ If you like the idea of owning and controlling your own money, feel free to cont
 <tr><td>POS block reward distribution</td><td>SeeSaw</td></tr>
 <tr><td>Estimated SWAMP supply after 6 years of POS</td><td>18,352,239</td></tr>
 <tr><td>Maximum SWAMP supply</td><td>45,000,000</td></tr>
-<tr><td>Premine</td><td>5,300,000 SWAMP (primarily for swapping coins)</td></tr>
+<tr><td>Premine</td><td>100,000 SWAMP (primarily for masternodes)</td></tr>
 <tr><td>Blocksize</td><td>1 MB</td></tr>
 <tr><td>Blocktime average</td><td>1 min (DGW3)</td></tr>
 <tr><td>Number of transaction confirmations</td><td>6</td></tr>
