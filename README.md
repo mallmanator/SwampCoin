@@ -23,7 +23,7 @@ If you like the idea of owning and controlling your own money, feel free to cont
 <tr><td>PoW block reward</td><td>Dynamic from 4 to 511 SWAMP</td></tr>
 <tr><td>Instamine protection</td><td>First 720 blocks</td></tr>
 <tr><td>Hashing algorithm</td><td>HEX</td></tr>
-<tr><td>Estimated SWAMP supply during POW</td><td>~5,301,000</td></tr>
+<tr><td>Estimated SWAMP supply during POW</td><td>5,301,000</td></tr>
 <tr><td>POS starting block</td><td>200,001</td></tr>
 <tr><td>POS phase duration</td><td>56 years</td></tr>
 <tr><td>POS block reward distribution</td><td>SeeSaw</td></tr>
