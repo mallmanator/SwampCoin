@@ -17,14 +17,14 @@ If you like the idea of owning and controlling your own money, feel free to cont
 ### Coin Specs
 
 <table>
-<tr><td>Name & ticker</td><td>New World Order (SWAMP)</td></tr>
+<tr><td>Name & ticker</td><td>Swamp Digital Currency (SWAMP)</td></tr>
 <tr><td>Consensus algorithm</td><td>PoW/POS</td></tr>
-<tr><td>POW phase duration</td><td>200,000 blocks mined via wallet only</td></tr>
+<tr><td>POW phase duration</td><td>200,000</td></tr>
 <tr><td>PoW block reward</td><td>Dynamic from 4 to 511 SWAMP</td></tr>
 <tr><td>Instamine protection</td><td>First 720 blocks</td></tr>
 <tr><td>Hashing algorithm</td><td>HEX</td></tr>
 <tr><td>Estimated SWAMP supply during POW</td><td>~5,301,000</td></tr>
-<tr><td>POS starting block</td><td>101</td></tr>
+<tr><td>POS starting block</td><td>200,001</td></tr>
 <tr><td>POS phase duration</td><td>56 years</td></tr>
 <tr><td>POS block reward distribution</td><td>SeeSaw</td></tr>
 <tr><td>Estimated SWAMP supply after 6 years of POS</td><td>18,352,239</td></tr>
@@ -40,7 +40,7 @@ If you like the idea of owning and controlling your own money, feel free to cont
 
 <table>
 <tr><th>Starting Block</th><th>Ending Block</th><th>Block Reward</th><th>Total Supply</th><th>Phase Length</th></tr>
-<tr><th>101</th><th>787,000</th><th>1</th><th>8,415,839</th><th>1 week</th></tr>
+<tr><th>200,000</th><th>787,000</th><th>1</th><th>8,415,839</th><th>3 week2</th></tr>
 <tr><th>787,001</th><th>1,302,600</th><th>5</th><th>10,993,839</th><th>51 weeks</th></tr>
 <tr><th>1,302,601</th><th>1,828,200</th><th>4</th><th>13,096,239</th><th>52 weeks</th></tr>
 <tr><th>1,828,201</th><th>2,353,800</th><th>3</th><th>14,673,039</th><th>52 weeks</th></tr>
