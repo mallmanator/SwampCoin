@@ -22,11 +22,11 @@ First install the toolchains:
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/SWAMPNetwork/SWAMP.git
+    git clone https://github.com/swampcoin/SwampCoin.git
     
 To build executables for Windows 32-bit:
 
-    cd SWAMP
+    cd SwampCoin
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
     make HOST=i686-w64-mingw32 -j4
@@ -37,7 +37,7 @@ To build executables for Windows 32-bit:
 
 To build executables for Windows 64-bit:
 
-    cd SWAMP
+    cd SwampCoin
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
     make HOST=x86_64-w64-mingw32 -j4
