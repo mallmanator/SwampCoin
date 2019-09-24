@@ -211,9 +211,9 @@ public:
         assert(hashGenesisBlock == uint256("000000c914b2c4a05d8e28f4ec8498b7f13798cd3513cf856c0da23690c00a89"));
         assert(genesis.hashMerkleRoot == uint256("08b1bee241c6a39de8adb7de82bedeaa139976613b67d98d12c25de5bf8681c4"));
 
-        //vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode1.SWAMPnetwork.org"));     // Primary DNS Seeder
-	//    vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode2.SWAMPnetwork.org"));
-       // vSeeds.push_back(CDNSSeedData("SWAMPnetwork.org", "seednode3.SWAMPnetwork.org"));
+        vSeeds.push_back(CDNSSeedData("swampnode1.doesntexist.com", "swampnode1.doesntexist.com"));     // Primary DNS Seeder
+	    vSeeds.push_back(CDNSSeedData("swampnode2.doesntexist.com", "swampnode1.doesntexist.com"));
+        vSeeds.push_back(CDNSSeedData("swampnode3.doesntexist.com", "swampnode1.doesntexist.com"));
         //vSeeds.push_back(CDNSSeedData("50.59.59.250", "50.59.59.250"));
        // vSeeds.push_back(CDNSSeedData("108.61.148.90", "108.61.148.90"));
         //vSeeds.push_back(CDNSSeedData("62.113.206.204", "62.113.206.204"));
