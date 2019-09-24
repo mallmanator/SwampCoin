@@ -214,8 +214,8 @@ public:
         vSeeds.push_back(CDNSSeedData("swampnode1.doesntexist.com", "swampnode1.doesntexist.com"));     // Primary DNS Seeder
 	    vSeeds.push_back(CDNSSeedData("swampnode2.doesntexist.com", "swampnode1.doesntexist.com"));
         vSeeds.push_back(CDNSSeedData("swampnode3.doesntexist.com", "swampnode1.doesntexist.com"));
-        //vSeeds.push_back(CDNSSeedData("50.59.59.250", "50.59.59.250"));
-       // vSeeds.push_back(CDNSSeedData("108.61.148.90", "108.61.148.90"));
+        vSeeds.push_back(CDNSSeedData("45.32.217.164", "45.32.217.164"));
+        vSeeds.push_back(CDNSSeedData("108.61.202.115", "108.61.202.115"));
         //vSeeds.push_back(CDNSSeedData("62.113.206.204", "62.113.206.204"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 68);
